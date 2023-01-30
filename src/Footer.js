@@ -4,7 +4,7 @@
 export default function Footer(){
     return (
         <footer>
-            <img src="/footerLogo.png" className="footerLogo" alt="" />
+            <img src="/Assets/footerLogo.png" className="footerLogo" alt="" />
             <div>
                 <h4>Doormat Navigation</h4>
                 <ul>

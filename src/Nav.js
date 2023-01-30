@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 
 export default function Nav(){
@@ -6,7 +6,8 @@ export default function Nav(){
         <nav>
             <ul className="menu">
                 <li>
-                    <a href="#Home">Home</a>
+                <Link to="/">Home</Link>
+                    {/* <a href="#Home">Home</a> */}
                 </li>
                 <li>
                     <a href="#About">About</a>
@@ -18,7 +19,8 @@ export default function Nav(){
                     <a href="#Reservations">Reservations</a>
                 </li>
                 <li>
-                    <a href="#OrderOnline">Order Online</a>
+                    <Link to="booking">OrderOnline</Link>
+                    {/* <a href="#OrderOnline">Order Online</a> */}
                 </li>
                 <li>
                     <a href="#Login">Login</a>

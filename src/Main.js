@@ -1,19 +1,22 @@
-
+// import CTO from "./Components/CTO"
+// import Specials from "./Components/Specials"
+// import CustomersSay from "./Components/CustomersSay"
+// import Chicago from "./Components/Chicago"
+import BookingPage from "./Components/BookingPage"
+import {Routes, Route} from "react-router-dom"
+import HomePage from "./Components/HomePage"
 
 
 export default function Main(){
     return (
+        <>
         <main>
-            {/* <div className="Hero-container">
-                <div>
-                    <h2 className="Hero-h2">Little Lemon</h2>
-                    <h3 className="Hero-para">Chicago</h3>
-                    <div className="hero-para-container">
-                        <p className="Hero-para">we are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-                    </div>
-                    <button className="Hero-btn">Reserve a table</button>
-                </div>
-            </div> */}
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="booking" element={<BookingPage />} />
+            </Routes>
         </main>
+
+        </>
     )
 }
