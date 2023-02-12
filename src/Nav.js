@@ -16,10 +16,10 @@ export default function Nav(){
                     <a href="#Menu">Menu</a>
                 </li>
                 <li>
-                    <a href="#Reservations">Reservations</a>
+                    <a href="reservations">Reservations</a>
                 </li>
                 <li>
-                    <Link to="booking">OrderOnline</Link>
+                    <Link to="#booking">OrderOnline</Link>
                     {/* <a href="#OrderOnline">Order Online</a> */}
                 </li>
                 <li>

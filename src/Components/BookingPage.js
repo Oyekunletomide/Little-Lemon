@@ -1,13 +1,11 @@
 
+import BookingForm from "./BookingForm"
 
-
-
-
-
-export default function CustomersSay(){
+export default function BookingPage(){
     return (
-            <div>
-                Hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-            </div>
+            <>
+                <BookingForm
+                  />
+            </>
     )
 }
